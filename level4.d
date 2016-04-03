@@ -9,6 +9,6 @@ Disassembly of section .text:
    5:	8d 54 24 18          	lea    0x18(%esp),%edx
    9:	c7 42 fc ef be ad de 	movl   $0xdeadbeef,-0x4(%edx)
   10:	c7 04 24 04 00 00 00 	movl   $0x4,(%esp)
-  17:	89 e5                	mov    %esp,%ebp
+  17:	89 d5                	mov    %edx,%ebp
   19:	68 0e 8f 04 08       	push   $0x8048f0e
   1e:	c3                   	ret    
